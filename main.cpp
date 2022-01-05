@@ -6,6 +6,8 @@ int lenghtString(char s[]){
   if(s[0]=='\0'){
     return 0;
   }
+
+  //dont ask how. recursion will do
   return 1+ lenghtString(s+1);
 
 }
